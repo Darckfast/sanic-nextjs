@@ -6,7 +6,7 @@ This template include:
 * typescript 4
 * eslint
 * styled-components
-* checkbox component
+* Python Sanic backend
 
 # Running
 
@@ -16,6 +16,13 @@ yarn dev # run front-end
 ```
 
 ```bash
+sudo apt install pipenv
+pipenv install
+```
+*May be necessary to change the interpreter in vscode to the one create by `pipenv`*
+
+```bash
+pipenv shell
 sanic src.api.server.app --debug
 ```
 
